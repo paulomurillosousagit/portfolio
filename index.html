@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvedor Web</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Portfó<span>lio</span>.</a>
+            
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#sobre" class="nav-link">Sobre Mim</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO 1: Hero -->
+        <section id="home" class="hero section">
+            <div class="hero-content reveal">
+                <div class="badge">Disponível para Estágio 🚀</div>
+                <h1 class="hero-title">Olá, eu sou <br><span class="gradient-text">Paulo Murillo</span></h1>
+                <h2 class="hero-subtitle">Estudante de Informática | Desenvolvedor Web</h2>
+                <p class="hero-text">Estou aberto a estágios e oportunidades na área de tecnologia! Apaixonado por criar interfaces bonitas e eficientes.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+                    <a href="#contato" class="btn btn-outline">Fale comigo</a>
+                    <a href="curriculo.pdf" download class="btn btn-download">
+                        <i class="fas fa-file-download"></i> Baixar Currículo
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image reveal">
+                <!-- Espaço para a foto, usando um placeholder com borda brilhante e gradiente de fundo -->
+                <div class="image-wrapper">
+                    <img src="imagem/paulomurillo.jpg" alt="Minha Foto">
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: Projetos -->
+        <section id="projetos" class="projects section">
+            <div class="section-header reveal">
+                <h2 class="section-title">Meu <span class="gradient-text">Projetos</span></h2>
+                <p class="section-subtitle"> meu trabalhos recentes</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="imagem/beach085.jpeg" alt="Projeto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Beach085</h3>
+                        <p>Projeto final de informática, criamos um site de vendas online.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/paulomurillosousagit/Beach085" target="_blank" class="btn btn-github">
+                            <i class="fab fa-github"></i> Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                
+        </section>
+
+        <!-- SEÇÃO 3: Sobre Mim + Competências + Certificados -->
+        <section id="sobre" class="about section">
+            <div class="about-container">
+                <div class="about-text reveal">
+                    <h2 class="section-title">Sobre <span class="gradient-text">Mim</span></h2>
+                    <p>Estou no 3º ano do curso técnico de Informática. Tenho conhecimentos em HTML, CSS e JavaScript e estou sempre aprendendo novas tecnologias. Sou curioso, dedicado e pronto para trabalhar em equipe.</p>
+                    <p class="highlight-text">Estou em busca do meu primeiro estágio para crescer profissionalmente!</p>
+                    
+                    <a href="curriculo.pdf" download class="btn btn-download mt-4">
+                        <i class="fas fa-file-download"></i> Download do Currículo
+                    </a>
+                </div>
+
+                <div class="about-details">
+                    <!-- Competências -->
+                    <div class="skills reveal" style="transition-delay: 0.1s;">
+                        <h3>Minhas Competências</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificados -->
+                    <div class="certificates reveal" style="transition-delay: 0.2s;">
+                        <h3>Certificados</h3>
+                        <div class="cert-list">
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <div>
+                                    <h4>Certificação Huawei — HCCDA-Tech Essentials Course</h4>
+                                    <p>Instituição HUAWEI - 2026</p>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <div>
+                                    <h4>Informática básica</h4>
+                                    <p>CEBRAC - 2022</p>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <div>
+                                    <h4>Introdução à Programação Orientada a Objetos (POO)</h4>
+                                    <p>Fundação Bradesco - 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 4: Contato -->
+        <section id="contato" class="contact section">
+            <div class="section-header reveal">
+                <h2 class="section-title">Vamos <span class="gradient-text">Conversar?</span></h2>
+                <p class="section-subtitle">Mande uma mensagem ou me encontre nas redes sociais</p>
+            </div>
+
+            <div class="contact-container">
+                <!-- Formulário -->
+                <form class="contact-form reveal">
+                    <div class="input-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seu.email@exemplo.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" rows="5" placeholder="Sua mensagem..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        Enviar <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+
+                <!-- Links Sociais -->
+                <div class="contact-info reveal" style="transition-delay: 0.2s;">
+                    <h3>Me encontre também aqui:</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/paulomurillosousagit" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://instagram.com/murillo9kj" target="_blank" class="social-btn">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Paulo Murillo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
